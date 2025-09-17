@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Stratus Dynamics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="contact">
+    <header class="global-header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">SD</span>
+          <span class="logo-text">Stratus Dynamics</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul id="primary-menu">
+            <li><a href="index.html" data-nav="home">Home</a></li>
+            <li><a href="about.html" data-nav="about">About</a></li>
+            <li><a href="services.html" data-nav="services">Services</a></li>
+            <li><a href="insights.html" data-nav="insights">Insights</a></li>
+            <li><a href="careers.html" data-nav="careers">Careers</a></li>
+            <li><a href="contact.html" class="btn btn-outline" data-nav="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="sub-hero section">
+        <div class="container narrow">
+          <p class="eyebrow">Contact us</p>
+          <h1>Let's shape what's next for your organization.</h1>
+          <p>
+            Share your goals and we'll connect you with the right strategists, designers, and
+            technologists to accelerate outcomes.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-grid section">
+        <div class="container grid grid-2">
+          <div class="contact-card" data-animate="fade-right">
+            <h2>Connect with us</h2>
+            <p>
+              We respond to inquiries within two business days. For media or partnership
+              requests, email <a href="mailto:press@stratusdynamics.com">press@stratusdynamics.com</a>.
+            </p>
+            <div class="contact-info">
+              <div>
+                <h3>Global HQ</h3>
+                <p>425 Market Street, 22nd Floor<br />San Francisco, CA 94105</p>
+              </div>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+14155551234">+1 (415) 555-1234</a></p>
+              </div>
+              <div>
+                <h3>General Inquiries</h3>
+                <p><a href="mailto:hello@stratusdynamics.com">hello@stratusdynamics.com</a></p>
+              </div>
+            </div>
+            <div class="regional-offices">
+              <h3>Regional hubs</h3>
+              <ul>
+                <li>Amsterdam</li>
+                <li>Singapore</li>
+                <li>Toronto</li>
+                <li>Sydney</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-form" data-animate="fade-left">
+            <form action="#" method="post">
+              <div class="form-row">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-row">
+                <label for="email">Work email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-row">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" required />
+              </div>
+              <div class="form-row">
+                <label for="interest">Area of interest</label>
+                <select id="interest" name="interest" required>
+                  <option value="" disabled selected>Select one</option>
+                  <option value="strategy">Strategy &amp; Advisory</option>
+                  <option value="design">Experience Design</option>
+                  <option value="ai">AI &amp; Automation</option>
+                  <option value="cloud">Cloud Engineering</option>
+                  <option value="careers">Careers</option>
+                </select>
+              </div>
+              <div class="form-row full">
+                <label for="message">How can we help?</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div class="form-row consent">
+                <label class="checkbox">
+                  <input type="checkbox" name="consent" required />
+                  <span>I agree to receive communications from Stratus Dynamics.</span>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit inquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div class="container">
+          <div class="cta-content">
+            <h2>Looking for partnership opportunities?</h2>
+            <p>We collaborate with technology leaders and venture studios worldwide.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="mailto:partners@stratusdynamics.com" class="btn btn-primary">Partner with us</a>
+            <a href="services.html" class="btn btn-outline">View service areas</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="global-footer">
+      <div class="container grid grid-4">
+        <div>
+          <a href="index.html" class="logo">
+            <span class="logo-mark">SD</span>
+            <span class="logo-text">Stratus Dynamics</span>
+          </a>
+          <p>
+            Stratus Dynamics is the strategic partner for enterprises ready to embrace
+            purposeful innovation and measurable transformation.
+          </p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Expertise</h4>
+          <ul>
+            <li><a href="services.html#strategy">Strategy &amp; Advisory</a></li>
+            <li><a href="services.html#experience">Experience Design</a></li>
+            <li><a href="services.html#ai">AI &amp; Automation</a></li>
+            <li><a href="services.html#cloud">Cloud Engineering</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stay connected</h4>
+          <form class="newsletter" action="#" method="post">
+            <label for="newsletter-email" class="sr-only">Email</label>
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              placeholder="Corporate email"
+              required
+            />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn" class="btn btn-icon">in</a>
+            <a href="#" aria-label="Twitter" class="btn btn-icon">tw</a>
+            <a href="#" aria-label="YouTube" class="btn btn-icon">yt</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span id="current-year"></span> Stratus Dynamics. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Accessibility</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
